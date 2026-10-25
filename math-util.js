@@ -22,6 +22,10 @@ const SimpleMath = {
         }
         return a / b;
     }
+    square: function (a) {
+        return a * a;
+    }
+
 };
 
 if (typeof module !== "undefined" && module.exports) {
